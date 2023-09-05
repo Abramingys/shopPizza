@@ -1,22 +1,22 @@
 .header {
-  &-flex {
+  &Flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  &-info {
+  &Info {
     padding: 10px 0;
     border-bottom: 1px solid grey;
 
-    &_location {
+    &Location {
       gap: 15px;
     }
 
-    &_work-time {
+    &WorkTime {
       gap: 10px;
     }
   }
-  &-delivery {
+  &Delivery {
     padding: 20px 0;
     p {
       display: flex;

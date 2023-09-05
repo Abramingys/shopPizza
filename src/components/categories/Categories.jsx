@@ -1,10 +1,11 @@
 import React from 'react'
 import categories from '../../arr/categories.json';
+import styles from './Categories.module.scss';
 
 function Categories() {
     let [active, setActive] = React.useState();
     let [active1, setActive1] = React.useState(false);
-    console.log('hidsвыввывы');
+
 
     function get(index) {
         setActive(index)
@@ -12,12 +13,12 @@ function Categories() {
     }
     console.log(active1);
     return (
-        <ul className='categories'>
+        <ul className={styles.categories}>
             {
                 categories.map(({ src, name }, index) =>
                     <li key={index}
                         onClick={() => get(index)}
-                        className={active === index && active1 === true ? "categories-item active" : "categories-item"}>
+                        className={styles.categoriesItem}>
                         <img src={src} alt="" />
                         <p>{name}</p>
 
