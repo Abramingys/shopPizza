@@ -2,7 +2,7 @@
 import './App.scss';
 
 import Header from './components/Header/Header';
-import Categories from './components/categories/Categories';
+import Categories from './components/Categories/Categories';
 
 
 

@@ -1,29 +1,16 @@
-import React from 'react'
+import React from 'react';
+import CategoriesItem from '../CategoriesItem/CategoriesItem';
 import categories from '../../arr/categories.json';
 import styles from './Categories.module.scss';
 
 
 function Categories() {
-    let [active, setActive] = React.useState();
-    let [active1, setActive1] = React.useState(false);
 
-
-    function get(index) {
-        setActive(index)
-        setActive1(!active1);
-    }
-    console.log(active1);
     return (
         <ul className={styles.categories}>
             {
                 categories.map(({ src, name }, index) =>
-                    <li key={index}
-                        onClick={() => get(index)}
-                        className={styles.categoriesItem}>
-                        <img src={src} alt="" />
-                        <p>{name}</p>
-
-                    </li>
+                    <CategoriesItem src={src} name={name} key={index} />
                 )
             }
         </ul >
