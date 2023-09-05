@@ -4,7 +4,7 @@ import categories from '../../arr/categories.json';
 function Categories() {
     let [active, setActive] = React.useState();
     let [active1, setActive1] = React.useState(false);
-    console.log('hids');
+    console.log('hidsвыв');
 
     function get(index) {
         setActive(index)
