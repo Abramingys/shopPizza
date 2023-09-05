@@ -2,6 +2,7 @@ import React from 'react'
 import categories from '../../arr/categories.json';
 import styles from './Categories.module.scss';
 
+
 function Categories() {
     let [active, setActive] = React.useState();
     let [active1, setActive1] = React.useState(false);
