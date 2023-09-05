@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
   }
+
   &Info {
     padding: 10px 0;
     border-bottom: 1px solid grey;
@@ -16,13 +17,16 @@
       gap: 10px;
     }
   }
+
   &Delivery {
     padding: 20px 0;
+
     p {
       display: flex;
       align-items: center;
       gap: 12px;
     }
+
     p::before {
       content: url('../../assets/img/pizzalogo.png');
     }
@@ -37,6 +41,7 @@
       border: 0px;
       border-radius: 4px;
     }
+
     button::before {
       content: url('../../assets/img/shoppingBag.png');
     }

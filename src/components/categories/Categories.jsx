@@ -4,7 +4,7 @@ import categories from '../../arr/categories.json';
 import styles from './Categories.module.scss';
 
 
-function Categories() {
+export default function Categories() {
 
     return (
         <ul className={styles.categories}>
@@ -15,9 +15,9 @@ function Categories() {
             }
         </ul >
     )
-}
+};
 
-export default Categories;
+
 
 
 

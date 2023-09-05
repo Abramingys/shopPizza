@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './CategoriesItem.module.scss';
 
+export default function CategoriesItem({ src, name }) {
 
-function CategoriesItem({ src, name }) {
     return (
         <li
             className={styles.categoriesItem}>
@@ -10,7 +10,5 @@ function CategoriesItem({ src, name }) {
             <p>{name}</p>
         </li>
     )
+};
 
-}
-
-export default CategoriesItem;
