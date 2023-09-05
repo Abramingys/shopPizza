@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Aкции",
+        "src": "categories/fire.png"
+
+    },
+    {
+        "name": "Пицца",
+        "src": "categories/pizza.png"
+
+    },
+    {
+        "name": "Суши",
+        "src": "categories/sushi.png"
+
+    },
+    {
+        "name": "Напитки",
+        "src": "categories/drink.png"
+
+    },
+    {
+        "name": "Закуски",
+        "src": "categories/snacks.png"
+
+    },
+    {
+        "name": "Комбо",
+        "src": "categories/combo.png"
+
+    },
+    {
+        "name": "Десерты",
+        "src": "categories/dessert.png"
+
+    },
+    {
+        "name": "Соусы",
+        "src": "categories/sauce.png"
+
+    }
+
+]

@@ -1,0 +1,44 @@
+.header {
+  &-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-info {
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+
+    &_location {
+      gap: 15px;
+    }
+
+    &_work-time {
+      gap: 10px;
+    }
+  }
+  &-delivery {
+    padding: 20px 0;
+    p {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    p::before {
+      content: url('../../assets/img/pizzalogo.png');
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      color: white;
+      background-color: #ff7010;
+      border: 0px;
+      border-radius: 4px;
+    }
+    button::before {
+      content: url('../../assets/img/shoppingBag.png');
+    }
+  }
+}
