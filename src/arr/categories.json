@@ -1,42 +1,50 @@
 [
     {
         "name": "Aкции",
-        "src": "categories/fire.png"
+        "src": "categories/fire.png",
+        "id":0  
 
     },
     {
         "name": "Пицца",
-        "src": "categories/pizza.png"
+        "src": "categories/pizza.png",
+        "id":1
 
     },
     {
         "name": "Суши",
-        "src": "categories/sushi.png"
+        "src": "categories/sushi.png",
+        "id":2
 
     },
     {
         "name": "Напитки",
-        "src": "categories/drink.png"
+        "src": "categories/drink.png",
+        "id":3
 
     },
     {
         "name": "Закуски",
-        "src": "categories/snacks.png"
+        "src": "categories/snacks.png",
+        "id":4
 
     },
     {
         "name": "Комбо",
-        "src": "categories/combo.png"
+        "src": "categories/combo.png",
+        "id":5
 
     },
     {
         "name": "Десерты",
-        "src": "categories/dessert.png"
+        "src": "categories/dessert.png",
+        "id":6
 
     },
     {
         "name": "Соусы",
-        "src": "categories/sauce.png"
+        "src": "categories/sauce.png",
+        "id":7
 
     }
 
